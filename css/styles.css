@@ -1,0 +1,63 @@
+body {
+    font-family: Anton, sans-serif;
+}
+
+.main-header{
+    color: white;
+}
+
+
+.main-header > .row > .col-lg-4  {
+    background-color: red;
+    height: 120px;
+}
+
+.main-header > .row > .col-lg-4 > .date {
+    font-size: 16px;
+    padding-left: 0;
+    padding-top: 90px;  
+    float: left;
+}
+.main-header > .row > .col-lg-4 > h1 {
+    text-align: center;
+    padding-top: 38px;
+    font-size: 48px;
+    font-family: Anton, sans-serif;
+
+}
+
+.main-header > .row > .col-lg-4 > .main-header-links {
+    font-size: 16px;
+    padding-left: 0;
+    padding-top: 60px;  
+    float: right;
+}
+
+.main-header > .row:nth-child(2) {
+    height:15px;
+}
+
+.main-header > .row:nth-child(3) {
+    color: black;
+}
+
+.main-header > .row:nth-child(3) > .col-lg-1, .col-lg-2 { 
+    border-right: 1px solid rgb(187, 187, 187);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.main-header > .row:nth-child(3) > .col-lg-2:last-child {
+    border-right: none;
+}
+
+.main-header > .row:last-child {
+    height: 15px;
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+
+
+
