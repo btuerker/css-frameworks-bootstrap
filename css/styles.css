@@ -2,10 +2,13 @@ body {
     font-family: Anton, sans-serif;
 }
 
+
+hr {
+    margin: 10px 0;
+}
 .main-header{
     color: white;
 }
-
 
 .main-header > .row > .col-lg-4  {
     background-color: red;
@@ -59,5 +62,121 @@ body {
 }
 
 
+/* MAIN CONTENT */
+
+.main-content {
+    padding-top: 20px;
+}
+
+.section-name {
+    color: rgb(153, 152, 152);
+    font-weight: bold;
+}
 
 
+/* MAIN CONTENT */
+
+
+/* NEWS  */
+
+.news {
+    width: 100%;
+}
+
+    .news > .title > a, .news-mini > .title > a{
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        font-weight: bold;
+    }
+    .news > .title > a:hover , .news-mini > .title > a:hover{
+        border-bottom: 2px solid orangered;
+    }
+
+
+.news > .footnote {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+.news > .footnote:hover {
+    color: orangered;
+}
+
+
+.news-img {
+    position: relative;
+}
+
+
+.news-img > img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.news-img > .category-tag {
+    position: absolute;
+    background-color: white;
+    color: orangered;
+    width: 40px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    bottom: 0;
+}
+
+/* NEWS */
+
+
+/* NEWS MINI */
+
+.news-mini {
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-top: solid 1px rgb(187, 186, 186);
+    width: 100%;
+}
+
+.news-mini > img {
+    float: left;
+    width: 25%;
+    padding-right: 10px;
+}
+
+.news-mini > .author-img {
+    width: 25%;
+}
+
+.news-mini > .opinion-title {
+    font-size: 16px;
+}
+
+.news-mini > .opinion-title > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.news-mini > .opinion-title > a:hover {
+    border-bottom: 2px solid orangered;
+}
+
+.news-mini > .info {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.news-mini > .info > a{
+    color: gray;
+    text-decoration: none;
+}
+.news-mini > .info > a:hover {
+    color: orangered;
+}
+
+.news-mini > .latest-img {
+    width: 50%;
+}
+
+/* NEWS MINI */
