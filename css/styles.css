@@ -477,6 +477,68 @@ hr {
 }
 /* FEATURED BY CATEGORIES */
 
+/* SUBSCRIPTION AREA */
+.subscription-area > .col-xs-4 > .subscription-heading,
+.subscription-area > .col-sm-4 > .subscription-heading, 
+.subscription-area > .col-md-4 > .subscription-heading, 
+.subscription-area > .col-lg-4 > .subscription-heading {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.subscription-area > .col-xs-4 > .subscribe-card,
+.subscription-area > .col-sm-4 > .subscribe-card, 
+.subscription-area > .col-md-4 > .subscribe-card, 
+.subscription-area > .col-lg-4 > .subscribe-card {
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.subscription-area > .col-xs-4 > .subscribe-card > .row:first-child,
+.subscription-area > .col-sm-4 > .subscribe-card > .row:first-child, 
+.subscription-area > .col-md-4 > .subscribe-card > .row:first-child, 
+.subscription-area > .col-lg-4 > .subscribe-card > .row:first-child {
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+    width:90%;
+    margin:0 auto;
+}
+
+.subscription-area > .col-xs-4 > .subscribe-card > .row:last-child,
+.subscription-area > .col-sm-4 > .subscribe-card > .row:last-child, 
+.subscription-area > .col-md-4 > .subscribe-card > .row:last-child, 
+.subscription-area > .col-lg-4 > .subscribe-card > .row:last-child {
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+    width:90%;
+    margin:0 auto;
+}
+
+.subscription-area > .col-xs-4 > .subscribe-card > .row > .col-xs-12 > .sub-header > a,
+.subscription-area > .col-sm-4 > .subscribe-card > .row > .col-sm-12 > .sub-header > a, 
+.subscription-area > .col-md-4 > .subscribe-card > .row > .col-md-6 >  .sub-header > a, 
+.subscription-area > .col-lg-4 > .subscribe-card > .row > .col-lg-6 > .sub-header > a {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.subscription-area > .col-xs-4 > .subscribe-card > .row > .col-xs-12 > .sub-header > a:hover,
+.subscription-area > .col-sm-4 > .subscribe-card > .row > .col-sm-12 > .sub-header > a:hover, 
+.subscription-area > .col-md-4 > .subscribe-card > .row > .col-md-6 > .sub-header > a:hover, 
+.subscription-area > .col-lg-4 > .subscribe-card > .row > .col-lg-6 > .sub-header > a:hover {
+    border-bottom: 2px solid orangered;
+    cursor:pointer
+}
+
+/* SUBSCRIPTION AREA */
+
+
 @media screen and (max-width: 1200px) {
     .news-mini > .author-img {
         width: 30%;
