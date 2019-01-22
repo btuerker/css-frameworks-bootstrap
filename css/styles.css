@@ -408,7 +408,15 @@ hr {
 
 @media screen and (max-width: 1200px) {
     .news-mini > .author-img {
+        width: 30%;
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .news-mini > .author-img {
         width: 100px;
         padding-bottom: 5px;
+        padding-left: 20px;
     }
 }
