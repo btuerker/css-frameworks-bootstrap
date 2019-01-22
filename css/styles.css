@@ -6,6 +6,12 @@ body {
 hr {
     margin: 10px 0;
 }
+
+.centered {
+    padding: 0 5px;
+    margin: 0 5px;
+}
+
 .main-header{
     color: white;
 }
@@ -180,3 +186,11 @@ hr {
 }
 
 /* NEWS MINI */
+
+
+@media screen and (max-width: 1200px) {
+    .news-mini > .author-img {
+        width: 100px;
+        padding-bottom: 5px;
+    }
+}
