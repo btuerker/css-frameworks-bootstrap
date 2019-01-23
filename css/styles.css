@@ -172,7 +172,6 @@ hr {
     content: "";
 }
 
-
 .sidenav-collapse {
     position: fixed;
     top: 100px;
@@ -539,7 +538,8 @@ hr {
 
 .editor-pick > .col-lg-12 > .col-lg-3 > a, 
 .featured-slideshows > .row > .col-lg-4 > a,
-.featured-by-categories > .row > .col-lg-4 > a {
+.featured-by-categories > .row > .col-lg-4 > a,
+.subscription-area .subscription-info a {
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;
@@ -548,7 +548,8 @@ hr {
 .editor-pick > .col-lg-12 > .col-lg-3 > a:hover, 
 .featured-slideshows > .row > .col-lg-4 > a:hover,
 .featured-by-categories > .row > .col-lg-4 > a:hover,
-.featured-by-categories > .row > .col-lg-4 > .row > a:hover {
+.featured-by-categories > .row > .col-lg-4 > .row > a:hover,
+.subscription-area .subscription-info a:hover {
     border-bottom: 2px solid orangered;
     cursor:pointer
 }
@@ -636,62 +637,50 @@ hr {
 /* FEATURED BY CATEGORIES */
 
 /* SUBSCRIPTION AREA */
-.subscription-area > .col-xs-4 > .subscription-heading,
-.subscription-area > .col-sm-4 > .subscription-heading, 
-.subscription-area > .col-md-4 > .subscription-heading, 
-.subscription-area > .col-lg-4 > .subscription-heading {
-    color: red;
-    font-weight: bold;
-    font-size: 16px;
 
+.subscription-most-read {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.subscription-area > .col-xs-4 > .subscribe-card,
-.subscription-area > .col-sm-4 > .subscribe-card, 
-.subscription-area > .col-md-4 > .subscribe-card, 
-.subscription-area > .col-lg-4 > .subscribe-card {
-    background-color: rgb(226, 226, 226);
+.subscription-area {
+    background-color: rgb(229, 226, 226);
+}
+
+.subscription-most-read .subscription-area .subscribe-title {
     width: 100%;
-    height: auto;
-    margin-top: 20px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
 }
-
-.subscription-area > .col-xs-4 > .subscribe-card > .row:first-child,
-.subscription-area > .col-sm-4 > .subscribe-card > .row:first-child, 
-.subscription-area > .col-md-4 > .subscribe-card > .row:first-child, 
-.subscription-area > .col-lg-4 > .subscribe-card > .row:first-child {
-    padding: 10px 0;
-    border-bottom: 1px solid gray;
-    width:90%;
-    margin:0 auto;
-}
-
-.subscription-area > .col-xs-4 > .subscribe-card > .row:last-child,
-.subscription-area > .col-sm-4 > .subscribe-card > .row:last-child, 
-.subscription-area > .col-md-4 > .subscribe-card > .row:last-child, 
-.subscription-area > .col-lg-4 > .subscribe-card > .row:last-child {
-    padding: 10px 0;
-    border-bottom: 1px solid gray;
-    width:90%;
-    margin:0 auto;
-}
-
-.subscription-area > .col-xs-4 > .subscribe-card > .row > .col-xs-12 > .sub-header > a,
-.subscription-area > .col-sm-4 > .subscribe-card > .row > .col-sm-12 > .sub-header > a, 
-.subscription-area > .col-md-4 > .subscribe-card > .row > .col-md-6 >  .sub-header > a, 
-.subscription-area > .col-lg-4 > .subscribe-card > .row > .col-lg-6 > .sub-header > a {
+.subscription-most-read .subscribe-title a {
+    color: orangered;
     font-weight: bold;
-    font-size: 18px;
-    text-decoration: none;
-    color: black;
 }
 
-.subscription-area > .col-xs-4 > .subscribe-card > .row > .col-xs-12 > .sub-header > a:hover,
-.subscription-area > .col-sm-4 > .subscribe-card > .row > .col-sm-12 > .sub-header > a:hover, 
-.subscription-area > .col-md-4 > .subscribe-card > .row > .col-md-6 > .sub-header > a:hover, 
-.subscription-area > .col-lg-4 > .subscribe-card > .row > .col-lg-6 > .sub-header > a:hover {
-    border-bottom: 2px solid orangered;
-    cursor:pointer
+.subscription-most-read .most-read-title a {
+    color: black;
+    font-weight: bold;
+}
+
+.subscription-area img {
+    float: left;
+    padding: 20px 10px;
+}
+.subscription-area .subscription-info {
+    padding-top: 20px;
+}
+.subscription-area .subscription-info a {
+    margin-bottom: 100px;
+}
+.subscription-area .subscription-info i{
+    color: gray;
+}
+
+
+.most-read-area .row .news-mini img{
+    width: 40%;
 }
 
 /* SUBSCRIPTION AREA */
@@ -764,9 +753,9 @@ hr {
     }
 
     .sidenav-collapse {
+        top: 40px;
         width: 250px;
         height: 100vh;
-        top: 40px;
     }
 
     .sidenav-collapse ul li a::after {
@@ -788,5 +777,9 @@ hr {
     } 
     .news-mini > .latest-news-img {
         padding-left: 20px;
+    }
+
+    .most-read-area .row .news-mini img{
+        width: 15%;
     }
 }
