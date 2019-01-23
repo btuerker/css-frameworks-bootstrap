@@ -8,6 +8,7 @@
     <title>The News Week</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/jquery-3.3.1.js"></script>
@@ -16,8 +17,7 @@
 </head>
 
 <body>
-    <div class="container topbar">
-        <!-- <div class="row">
+    <!-- <div class="row">
             <div class="col-lg-4">
                 <div class="date">
                     Fri, Jan 18, 2019
@@ -51,45 +51,55 @@
 
         </div> -->
 
-        <nav class="navbar navbar-default" role="navigation">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="row navbar-header">
-                <div class="row navbar-header">
-                    <div class="date">Wed, Jan 23, 2019</div>
-                    <div class="logo">Newsweek</div>
-                    <div class="right-links pull-right">
-                        <ul>
-                            <li><a href="#">SIGN IN</a></li>
-                            <li><a href="#">SUBSCRIBE ></a></li>
-                        </ul>
-                    </div>
-                    <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+    <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <div class="navbar-header">
+                <div class="date">Wed, Jan 23, 2019</div>
+                <div class="logo">Newsweek</div>
+                <div class="right-links">
+                    <ul>
+                        <li><a href="#">SIGN IN</a></li>
+                        <li><a href="#">SUBSCRIBE ></a></li>
+                        <li> <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target=".sidenav-collapse">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
-            <div class="row">
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-ex1-collapse">
-                    <div class="links">
-                        <a href="#">World</a>
-                        <a href="#">Business</a>
-                        <a href="#">Tech & Science</a>
-                        <a href="#">Culture</a>
-                        <a href="#">Sports</a>
-                        <a href="#">Health</a>
-                        <a href="#">Opinion</a>
-                        <a href="#">Delible</a></li>
-                        <input type="text" id="search" placeholder="Search">
-                        <label for="search"><i class="fas fa-search"></i></label>
-                    </div>
-                </div><!-- /.navbar-collapse -->
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse">
+            <div class="links">
+                <a href="#">World</a>
+                <a href="#">Business</a>
+                <a href="#">Tech & Science</a>
+                <a href="#">Culture</a>
+                <a href="#">Sports</a>
+                <a href="#">Health</a>
+                <a href="#">Opinion</a>
+                <a href="#">Delible</a></li>
+                <input type="text" id="search" placeholder="Search">
+                <label for="search"><i class="fas fa-search"></i></label>
             </div>
-        </nav>
-    </div>
+        </div><!-- /.navbar-collapse -->
+        <div class="sidenav-collapse">
+            <ul>
+                <li><input type="text" id="search-sidenav" placeholder="Search"> <label for="search-sidenav"><i class="fas fa-search"></i></label></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Tech & Science</a></li>
+                <li><a href="#">Culture</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Health</a></li>
+                <li><a href="#">Opinion</a></li>
+                <li><a href="#">Delible</a></li>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <div class="container main-content">
         <div class="row">
