@@ -172,6 +172,10 @@ hr {
     content: "";
 }
 
+.sidenav-collapse.collapse {
+    display: none!important;
+}
+
 .sidenav-collapse {
     display: none;
     position: fixed;
@@ -772,6 +776,10 @@ hr {
     .navbar-header .right-links {
         top: 8px;
         right: 40px;
+    }
+
+    .sidenav-collapse.collapse {
+        display: block !important;
     }
 
     .sidenav-collapse {
