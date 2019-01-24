@@ -17,55 +17,59 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default" role="navigation">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
+    <div class="navbar-container">
+        <nav class="navbar navbar-default" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <div class="date">Wed, Jan 23, 2019</div>
-                <div class="logo">Newsweek</div>
-                <div class="right-links">
-                    <ul>
-                        <li><a href="#">SIGN IN</a></li>
-                        <li><a href="#">SUBSCRIBE ></a></li>
-                        <li> <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target=".sidenav-collapse">
-                                <i class="fas fa-bars"></i>
-                            </button>
-                        </li>
-                    </ul>
+                <div class="navbar-header">
+                    <div class="date">Wed, Jan 23, 2019</div>
+                    <div class="logo">Newsweek</div>
+                    <div class="right-links">
+                        <ul>
+                            <li><a href="#">SIGN IN</a></li>
+                            <li><a href="#">SUBSCRIBE ></a></li>
+                            <li> <button type="button" class="navbar-toggle pull-right" data-toggle="collapse"
+                                    data-target=".sidenav-collapse">
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                            </li>
+                        </ul>
 
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse">
-            <div class="links">
-                <a href="#">World</a>
-                <a href="#">Business</a>
-                <a href="#">Tech & Science</a>
-                <a href="#">Culture</a>
-                <a href="#">Sports</a>
-                <a href="#">Health</a>
-                <a href="#">Opinion</a>
-                <a href="#">Delible</a></li>
-                <input type="text" id="search" placeholder="Search">
-                <label for="search"><i class="fas fa-search"></i></label>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse">
+                <div class="links">
+                    <a href="#">World</a>
+                    <a href="#">Business</a>
+                    <a href="#">Tech & Science</a>
+                    <a href="#">Culture</a>
+                    <a href="#">Sports</a>
+                    <a href="#">Health</a>
+                    <a href="#">Opinion</a>
+                    <a href="#">Delible</a></li>
+                    <input type="text" id="search" placeholder="Search">
+                    <label for="search"><i class="fas fa-search"></i></label>
+                </div>
+            </div><!-- /.navbar-collapse -->
+            <div class="collapse sidenav-collapse">
+                <ul>
+                    <li><input type="text" id="search-sidenav" placeholder="Search"> <label for="search-sidenav"><i
+                                class="fas fa-search"></i></label></li>
+                    <li><a href="#">World</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Tech & Science</a></li>
+                    <li><a href="#">Culture</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Health</a></li>
+                    <li><a href="#">Opinion</a></li>
+                    <li><a href="#">Delible</a></li>
+                    </li>
+                </ul>
             </div>
-        </div><!-- /.navbar-collapse -->
-        <div class="collapse sidenav-collapse">
-            <ul>
-                <li><input type="text" id="search-sidenav" placeholder="Search"> <label for="search-sidenav"><i class="fas fa-search"></i></label></li>
-                <li><a href="#">World</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Tech & Science</a></li>
-                <li><a href="#">Culture</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="#">Health</a></li>
-                <li><a href="#">Opinion</a></li>
-                <li><a href="#">Delible</a></li>
-                </li>
-            </ul>
-        </div>
-    </nav>
+        </nav>
+    </div>
 
     <div class="container main-content">
         <div class="row">
@@ -790,7 +794,7 @@
                 </div>
             </div>
             <div class="most-read-area col-xs-12 col-sm-12 col-md-4 col-lg-4 pull-right">
-                    <div class="row most-read-title"><a href="#">MOST READ</a></div>
+                <div class="row most-read-title"><a href="#">MOST READ</a></div>
                 <div class="row">
                     <div class="news-mini">
                         <img src="./assets/more-story-1.jpg" alt="">
@@ -826,11 +830,52 @@
             </div>
         </div>
     </div>
-    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-    </div>
-    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-    </div>
-    </div>
+    <div class="container footer">
+        <div class="row footer-logo-social">
+            <div class="footer-logo col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <a class="logo" href="#">NEWSWEEK</a>
+                <span>&nbsp;@2019 NEWSWEEK</span>
+            </div>
+
+            <div class="footer-social-links col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-square"></i></a></i></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></i></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></i></li>
+                    <li><a href="#"><i class="fab fa-tumblr"></i></a></i></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></i></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="row footer-links">
+            <div class="menu col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Corrections</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Copyright</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+            <div class="region col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                <label style="float: left; padding-right: 10px; padding-top:5px;"><strong>Editions:</strong></label>
+                <ul>
+                    <li><a href="#">U.S. Edition</a></li>
+                    <li><a href="#">Middle East</a></li>
+                    <li><a href="#">日本</a></li>
+                    <li><a href="#">한국</a></li>
+                    <li><a href="#">Pakistan</a></li>
+                    <li><a href="#">Polska</a></li>
+                    <li><a href="#">România</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 
 </body>

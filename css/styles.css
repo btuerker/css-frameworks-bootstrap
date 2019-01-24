@@ -17,8 +17,10 @@ hr {
     max-width: 1310px;
 }
 
-.topbar {
+.navbar-container {
     width: 100%;
+    padding: 0;
+    max-width: 1310px;
     margin: 0 auto;
 }
 
@@ -686,6 +688,77 @@ hr {
 /* SUBSCRIPTION AREA */
 
 
+
+/* FOOTER */
+
+.footer {
+    padding: 30px;
+}
+
+.footer .row {
+    padding-top: 10px;
+}
+.footer .row:not(:last-child) {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+.footer-social-links ul {
+    float: right;
+}
+.footer-logo-social .footer-logo ,
+.footer-logo-social .footer-social-links,
+.footer-links ul{
+    padding: 0;
+}
+
+.footer-logo a {
+    font-family: 'Alfa Slab One', cursive;
+    color: red;
+    font-weight: lighter;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.footer-social-links ul li,
+.footer-links ul li {
+    display: inline-block;
+}
+
+.footer-links ul li a {
+    color: gray;    
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.footer-social-links ul li a {
+    color: gray;
+    padding: 0 5px;
+    font-size: 22px;
+}
+.footer-social-links ul li a .fa-facebook-square:hover, .fa-instagram:hover, .fa-tumblr:hover {
+    color: #3B5998;
+}
+.footer-social-links ul li a .fa-twitter:hover, .fa-linkedin-in:hover{
+    color: #1DA1F2;
+}
+.footer-social-links ul li a .fa-google-plus-g:hover {
+    color: #d34836;
+}
+
+.footer .footer-links ul li a:hover {
+    color: black;
+}
+
+.footer .footer-links ul li:not(:last-child) {
+    margin: 5px 0;
+    padding-right: 10px;
+    border-right: 1px solid rgb(189, 189, 189);
+}
+
+/* FOOTER */
+
+
 @media screen and (max-width: 1200px) {
     .news-mini > .author-img {
         width: 30%;
@@ -694,9 +767,12 @@ hr {
 }
 
 @media screen and (max-width: 991px) {
-
+    .navbar-container {
+        width: 100%;
+        padding: 0;
+    }
     .navbar {
-
+        width: 100%;
     }
 
     .navbar-header {
@@ -716,20 +792,6 @@ hr {
 
     .navbar-collapse.collapse {
         display: none!important;
-    }
-
-    .navbar-nav {
-        float: none!important;
-        margin: 7.5px -15px;
-    }
-
-    .navbar-nav>li {
-        float: none;
-    }
-
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
     }
 
     .navbar-header .date {
@@ -760,7 +822,7 @@ hr {
 
     .sidenav-collapse ul li a::after {
         position: absolute;
-        top: 15px;
+        top: 17px;
         right: 20px;
         width: 10px;
         height: 10px;
@@ -781,5 +843,12 @@ hr {
 
     .most-read-area .row .news-mini img{
         width: 15%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-social-links ul {
+        float: left;
+        padding-left: 0;
     }
 }
