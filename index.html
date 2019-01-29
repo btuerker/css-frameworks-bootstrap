@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The News Week</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/jquery-3.3.1.js"></script>
+    <script src="./js/bootstrap.js"></script>
+
+</head>
+
+<body>
+    <div class="navbar-container w-100">
+        <nav class="navbar navbar-default w-100">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header w-100">
+                <div class="navbar-header w-100">
+                    <div class="date">Wed, Jan 23, 2019</div>
+                    <div class="logo w-100">Newsweek</div>
+                    <div class="right-links">
+                        <ul>
+                            <li><a href="#">SIGN IN</a></li>
+                            <li><a href="#">SUBSCRIBE ></a></li>
+                            <li> <button type="button" class="navbar-toggle pull-right" data-toggle="collapse"
+                                    data-target=".sidenav-collapse">
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse w-100">
+                <div class="links fs-20">
+                    <a href="#">World</a>
+                    <a href="#">Business</a>
+                    <a href="#">Tech & Science</a>
+                    <a href="#">Culture</a>
+                    <a href="#">Sports</a>
+                    <a href="#">Health</a>
+                    <a href="#">Opinion</a>
+                    <a href="#">Delible</a>
+                    <input type="text" id="search" placeholder="Search">
+                    <label for="search" class="fs-20"><i class="fas fa-search"></i></label>
+                </div>
+            </div><!-- /.navbar-collapse -->
+            <div class="collapse sidenav-collapse ">
+                <ul>
+                    <li><input type="text" id="search-sidenav" placeholder="Search"> <label for="search-sidenav"><i
+                                class="fas fa-search"></i></label></li>
+                    <li><a href="#">World</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Tech & Science</a></li>
+                    <li><a href="#">Culture</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Health</a></li>
+                    <li><a href="#">Opinion</a></li>
+                    <li><a href="#">Delible</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container main-content w-100">
+        <div class="row">
+            <!-- TOP STORY & FEATURED STORY -->
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 top-and-featured-story-flex">
+                <!-- FEATURED STORIES -->
+                <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+                    <div class="section-name">FEATURED STORIES</div>
+                    <div class="news">
+                        <div class="news-img">
+                            <img class="w-100" src="./assets/featured-1.jpg" alt="">
+                            <span class="category-tag">U.S</span>
+                        </div>
+                        <div class="title">
+                            <a href="#">3 Americans Killed in Syria Suicide Bombing Identified</a>
+                        </div>
+                        <p>The bombing came just weeks after President Donald Trump declared victory over ISIS and
+                            ordered
+                            a withdrawal of U.S. forces from Syria.</p>
+                        <hr>
+                        <a href="" class="footnote">Turkey Says Syria Attack May Be Tied to U.S. Exit Plan</a>
+                        <hr>
+                    </div>
+                    <div class="news">
+                        <div class="news-img">
+                            <img class="w-100" src="./assets/featured-2.jpg" alt="">
+                            <span class="category-tag">WORLD</span>
+                        </div>
+                        <div class="title">
+                            <a href="#">Migrants Do Not Bring 'Exotic' Diseases: WHO Report</a>
+                        </div>
+                        <p>Instead, "the conditions encountered during their journey, as well as the living,
+                            working
+                            and
+                            aging conditions at their destination can have negative health repercussions for many
+                            refugees
+                            and migrants," said Dr. Zsuzsanna Jakab, Regional Director of the World Health
+                            Organization.</p>
+                        <hr>
+                        <a href="" class="footnote">Trump Claims Migrants Bring 'Disease' to U.S.</a>
+                        <hr>
+                    </div>
+
+                    <div class="news">
+                        <div class="news-img">
+                            <img class="w-100" src="./assets/featured-3.jpg" alt="">
+                            <span class="category-tag">U.S</span>
+                        </div>
+                        <div class="title">
+                            <a href="#">Kamala Harris Says She Won’t Take Corporate PAC Money</a>
+                        </div>
+                        <p>California Senator Kamala Harris is running for the Democratic nomination in 2020 to be
+                            America’s next president.</p>
+                        <hr>
+                        <a href="" class="footnote">Ann Coulter: Kamala Harris Will Be 'Next President'</a>
+                        <hr>
+                    </div>
+                    <div class="news">
+                        <div class="news-img">
+                            <img class="w-100" src="./assets/featured-4.jpg" alt="">
+                            <span class="category-tag">U.S</span>
+                        </div>
+                        <div class="title">
+                            <a href="#">Trump Accuses Media of Smearing Covington Students</a>
+                        </div>
+                        <p>The president tweeted that the students "were treated unfairly with early judgements
+                            proving
+                            out
+                            to be false."</p>
+                        <hr>
+                        <a href="" class="footnote">Twitter Suspends Account That Sparked Outrage</a>
+                        <hr>
+                    </div>
+                </div>
+                <!-- FEATURED STORIES -->
+                <!-- TOP STORY -->
+                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+                    <div class="row centered">
+                        <div class="section-name">TOP STORY</div>
+                        <div class="news">
+                            <div class="news-img">
+                                <img class="w-100" src="./assets/top-story-1.jpg" alt="">
+                                <span class="category-tag">CULTURE</span>
+                            </div>
+                            <div class="title">
+                                <a href="#">The Secret Tragedy of Martin Luther King's Last March</a>
+                            </div>
+                            <p>In a new book, the author tells the story of critically lauded black photographer
+                                Ernest
+                                Withers, highlighting new evidence about the death of MLK in 1968.</p>
+                            <hr>
+                            <a href="" class="footnote">Turkey Says Syria Attack May Be Tied to U.S. Exit Plan</a>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="section-name">MORE STORIES</div>
+                    <div class="row centered">
+                        <div class="news-mini w-100">
+                            <img src="./assets/more-story-1.jpg" alt="">
+                            <div class="title">
+                                <a href="#">Giuliani Reveals He's Heard Taped Evidence on Trump</a>
+                            </div>
+                            <p>The president's lawyer gave bizarre interview answers while discussing the recent
+                                Buzzfeed
+                                report alleging Donald Trump directed Michael Cohen to lie to Congress.</p>
+                        </div>
+                    </div>
+                    <div class="row centered">
+                        <div class="news-mini w-100">
+                            <img src="./assets/more-story-2.jpg" alt="">
+                            <div class="title">
+                                <a href="#">Trump Drew Up White House Enemies List, Book Claims</a>
+                            </div>
+                            <p>The president wanted to "get rid of all the snakes," Cliff Sims says in a new book.</p>
+                        </div>
+                    </div>
+                    <div class="row centered">
+                        <div class="news-mini w-100">
+                            <img src="./assets/more-story-3.jpg" alt="">
+                            <div class="title">
+                                <a href="#">Joe Biden Scrutinizes His Mistakes At MLK Day Event</a>
+                            </div>
+                            <p>The former vice president also took aim at President Donald Trump.</p>
+                        </div>
+                    </div>
+                    <div class="row centered">
+                        <div class="news-mini w-100">
+                            <img src="./assets/more-story-4.jpg" alt="">
+                            <div class="title">
+                                <a href="#">Sharpton Slams Trump Over 'Secret' MLK Memorial Visit</a>
+                            </div>
+                            <p>“I honestly don’t believe [Trump and Pence] intended to do anything for Dr. King’s
+                                birthday," Rev. Al Sharpton said.</p>
+                        </div>
+                    </div>
+                    <div class="row centered">
+                        <div class="news-mini w-100">
+                            <img src="./assets/more-story-5.jpg" alt="">
+                            <div class="title">
+                                <a href="#">Police Officer Runs Over Two People Watching Eclipse</a>
+                            </div>
+                            <p>The pair were taken to hospital with injuries.</p>
+                        </div>
+                    </div>
+                    <div class="row centered">
+                        <div class="news-mini w-100">
+                            <img src="./assets/more-story-6.jpg" alt="">
+                            <div class="title">
+                                <a href="#">Video: Don Jr. Slams BuzzFeed in Ingraham Interview</a>
+                            </div>
+                            <p>The president's son said the media "have shot themselves in the foot time and time
+                                again"
+                                with questionable reporting.</p>
+                        </div>
+                    </div>
+                    <div class="row centered">
+                        <div class="news-mini w-100">
+                            <img src="./assets/more-story-7.jpg" alt="">
+                            <div class="title">
+                                <a href="#">Kamala Harris Announces 2020 Presidential Bid</a>
+                            </div>
+                            <p>Harris has served in the Senate for two years and made the announcement on "Good
+                                Morning
+                                America."</p>
+                        </div>
+                    </div>
+                    <div class="row centered">
+                        <div class="news-mini w-100">
+                            <img src="./assets/more-story-8.jpg" alt="">
+                            <div class="title">
+                                <a href="#">Donald Trump Calls Unpaid Federal Workers 'Patriots'</a>
+                            </div>
+                            <p>The government shutdown is now into its 30th day.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- TOP STORY -->
+            </div>
+            <!-- TOP STORY & FEATURED STORY -->
+            <div class="clearfix visible-sm-block"></div>
+
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="section-name">OPINION</div>
+                <div class="row">
+                    <div class="news-mini w-100">
+                        <img src="./assets/author-1.png" alt="" class="author-img">
+                        <div class="opinion-title">
+                            <a href="#">Gingrich: Time to Stop Religious Bigotry in Congress</a>
+                        </div>
+                        <div class="opinion-footer">BY <a href="">NEWT GINGRICH</a></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="news-mini w-100">
+                        <img src="./assets/author-2.png" alt="" class="author-img">
+                        <div class="opinion-title">
+                            <a href="#">Farage: Second Vote May Win the Brexit We Want</a>
+                        </div>
+                        <div class="opinion-footer">BY <a href="">ROBERT REICH</a></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="news-mini w-100">
+                        <img src="./assets/author-3.png" alt="" class="author-img">
+                        <div class="opinion-title">
+                            <a href="#">Nancy Pelosi’s Big Shutdown Mistake</a>
+                        </div>
+                        <div class="opinion-footer">BY <a href="">PETER ROFF</a></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="news-mini w-100">
+                        <img src="./assets/author-4.png" alt="" class="author-img">
+                        <div class="opinion-title">
+                            <a href="#">Why Sunday's Blood Supermoon Is A Beautiful Rare Treat</a>
+                        </div>
+                        <div class="opinion-footer">BY <a href="">WALTER FREEMAN</a></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="news-mini w-100">
+                        <img src="./assets/author-5.png" alt="" class="author-img">
+                        <div class="opinion-title">
+                            <a href="#">Can Israel Ensure its Technology isn't Used for Evil?</a>
+                        </div>
+                        <div class="opinion-footer">BY <a href="">NIGEL FARAGE</a></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="news-mini w-100">
+                        <img src="./assets/author-6.png" alt="" class="author-img">
+                        <div class="opinion-title">
+                            <a href="#">Trump's Shutdown Reveals Failure of Trumponomics</a>
+                        </div>
+                        <div class="opinion-footer">BY <a href="">MARC SCHULMAN</a></div>
+                    </div>
+                </div>
+
+                <div class="section-name">LATEST NEWS</div>
+                <div class="row">
+                    <div class="news-mini w-100">
+                        <img src="./assets/latest-1.jpg" alt="" class="latest-news-img">
+                        <div class="opinion-title">
+                            <a href="#">7-Day Birth Control Break was Introduced to Please Pope</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="news-mini w-100">
+                        <img src="./assets/latest-2.jpg" alt="" class="latest-news-img">
+                        <div class="opinion-title">
+                            <a href="#">Soccer Player on Plane Missing over English Channel
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="news-mini w-100">
+                        <img src="./assets/latest-3.jpg" alt="" class="latest-news-img">
+                        <div class="opinion-title">
+                            <a href="#">World’s Biggest Ocean Sinkhole Has Plastic at Bottom</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="news-mini w-100">
+                        <img src="./assets/latest-4.jpg" alt="" class="latest-news-img">
+                        <div class="opinion-title">
+                            <a href="#">When Are the Oscars in 2019?</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="news-mini w-100">
+                        <img src="./assets/latest-5.jpg" alt="" class="latest-news-img">
+                        <div class="opinion-title">
+                            <a href="#">Gay Conversion Therapist Announces He Is Homosexual</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="news-mini w-100">
+                        <img src="./assets/latest-6.jpg" alt="" class="latest-news-img">
+                        <div class="opinion-title">
+                            <a href="#">Former NFL Star Darren McFadden Arrested in Texas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="news-mini w-100">
+                        <img src="./assets/latest-7.jpg" alt="" class="latest-news-img">
+                        <div class="opinion-title">
+                            <a href="#">Chris Brown Held in Paris After Rape Allegation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="news-mini w-100">
+                        <img src="./assets/latest-8.jpg" alt="" class="latest-news-img">
+                        <div class="opinion-title">
+                            <a href="#">Alyssa Milano: 'The Red MAGA Hat Is the New White Hood'</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="signup-ads w-100">
+                        <div class="row">
+                            <i class="fab fa-neos"></i><span class="signup-text">SIGN UP FOR OUR NEWSLETTER</span>
+                        </div>
+                        <div class="row">
+                            <button>SIGN UP</button>
+                        </div>
+                        <div class="row">
+                            <a href="#">Update your preferences »</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row in-the-magazine">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <img src="./assets/in-the-magazine-1.jpg" alt="">
+                <div class="cover-date">JANUARY 25TH ISSUE</div>
+                <div class="main-link">
+                    <a href="#">SEE ALL FEATURES ></a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 mini-header-news">
+                <div class="row centered">
+                    <div class="subheading-title"> <i class="fab fa-neos"></i> IN THE MAGAZINE</div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="./assets/in-the-magazine-2.jpg" alt="">
+                    <span class="highlights">FEATURES</span> &nbsp; WORLD <br> <br>
+                    <span>Computer Program and Teenager Compete for AI Domination</span>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="./assets/in-the-magazine-3.jpg" alt="">
+                    <span class="highlights">COVER</span> &nbsp; WORLD <br> <br>
+                    <span>Trade War</span>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="./assets/in-the-magazine-4.jpg" alt="">
+                    <span class="highlights">DOWNTIME</span> &nbsp; CULTURE <br> <br>
+                    <span>Justice for America: Al-Qaeda Militant Dead</span>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mini-header-news">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <img src="./assets/in-the-magazine-5.jpg" alt="">
+                    <span class="highlights">DOWNLOADS</span> &nbsp; SPYTALK <br> <br>
+                    <span>Computer Program and Teenager Compete for AI Domination</span>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <img src="./assets/in-the-magazine-6.jpg" alt="">
+                    <span class="highlights">FEATURED</span> &nbsp; U.S. <br> <br>
+                    <span>Governor Bullock Testing Presidential Waters</span>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <img src="./assets/in-the-magazine-7.jpg" alt="">
+                    <span class="highlights">COVER</span> &nbsp; U.S. <br> <br>
+                    <span>Trump Wants End to Wars, but Military Calls It Illusion</span>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <img src="./assets/in-the-magazine.png" alt="">
+                    <span class="highlights">LIFE</span> &nbsp; U.S. <br> <br>
+                    <span>‘My Big Fat Fabulous Life' Spoilers</span>
+                </div>
+            </div>
+        </div>
+        <div class="row editor-pick">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="subheading-title"> <i class="fab fa-neos"></i> EDITOR'S PICK</div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="img-heading">
+                        <img src="./assets/editor-pick-1.jpg" alt="">
+                        <div class="img-caption">U.S.</div>
+                    </div>
+                    <a class="editor-pick-title">Sanders Accuses Trump of Sowing Division in MLK Speech</a>
+                    <div class="editor-pick-details">"Today, we say to Donald Trump: We are not going back to more
+                        bigotry, discrimination and division," the progressive senator from Vermont said.</div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="img-heading">
+                        <img src="./assets/editor-pick-2.jpg" alt="">
+                        <div class="img-caption">WORLD</div>
+                    </div>
+                    <a class="editor-pick-title">Oxfam Inequality Report Highlights Wealth Disparity</a>
+                    <div class="editor-pick-details">“The way our economies are organized means wealth is increasingly
+                        and unfairly concentrated among a privileged few while millions of people are barely
+                        subsisting," said Oxfam’s director of campaigns and policy, Matthew Spencer.</div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="img-heading">
+                        <img src="./assets/editor-pick-3.jpg" alt="">
+                        <div class="img-caption">HEALTH</div>
+                    </div>
+                    <a class="editor-pick-title">Scientists Reveal Trick to Stop Unhealthy Food Cravings</a>
+                    <div class="editor-pick-details">Researchers believe smells can tap into the brain's reward
+                        circuit.</div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="img-heading">
+                        <img src="./assets/editor-pick-4.jpg" alt="">
+                        <div class="img-caption">WORLD</div>
+                    </div>
+                    <a class="editor-pick-title">Graham Travels to Turkey After Criticizing Trump</a>
+                    <div class="editor-pick-details">Graham was critical of President Donald Trump’s decision to pull
+                        U.S. troops out of Syria and allow Turkey to take the reigns in the fight against the Islamic
+                        State.</div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="img-heading">
+                        <img src="./assets/editor-pick-5.jpg" alt="">
+                        <div class="img-caption">HEALTH</div>
+                    </div>
+                    <a class="editor-pick-title">Tall, Slim Women Have Best Chance of Living Until 90</a>
+                    <div class="editor-pick-details">Scientists also investigated how much exercise was beneficial to
+                        men and women.</div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="img-heading">
+                        <img src="./assets/editor-pick-6.jpg" alt="">
+                        <div class="img-caption">U.S.</div>
+                    </div>
+                    <a class="editor-pick-title">MLK National Park to Reopen After Receiving Grant</a>
+                    <div class="editor-pick-details">The money will fund the park for 16 days, allowing Super Bowl
+                        visitors to see the site.</div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="img-heading">
+                        <img src="./assets/editor-pick-7.jpg" alt="">
+                        <div class="img-caption">HEALTH</div>
+                    </div>
+                    <a class="editor-pick-title">Not Bathing Newborns Linked to Better Breastfeeding</a>
+                    <div class="editor-pick-details">Researchers believe the smell of the breast is similar to amniotic
+                        fluid that protects a baby in the womb.</div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="img-heading">
+                        <img src="./assets/editor-pick-8.jpg" alt="">
+                        <div class="img-caption">WORLD</div>
+                    </div>
+                    <a class="editor-pick-title">North Korea Still an ‘Extraordinary Threat’: Pentagon</a>
+                    <div class="editor-pick-details">A high-level North Korean official is meeting with Secretary of
+                        State Mike Pompeo on Friday.</div>
+                </div>
+            </div>
+        </div>
+        <div class="row featured-slideshows">
+            <div class="row centered">
+                <div class="subheading-title"> <i class="fab fa-neos"></i> FEATURED SLIDESHOWS</div>
+            </div>
+            <div class="row centered">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="img-heading">
+                        <img src="./assets/featured-slide-1.jpg" alt="">
+                        <div class="img-caption">19</div>
+                    </div>
+                    <a class="editor-pick-title">Oscars 2019: Best Picture Nominations Ranked
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="img-heading">
+                        <img src="./assets/featured-slide-2.jpg" alt="">
+                        <div class="img-caption">14</div>
+                    </div>
+                    <a class="editor-pick-title">Super Blood Wolf Moon 2019: Stunning Photos of Total Lunar Eclipse
+                        From Around the World</a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="img-heading">
+                        <img src="./assets/featured-slide-3.jpg" alt="">
+                        <div class="img-caption">26</div>
+                    </div>
+                    <a class="editor-pick-title">Martin Luther King Day: Life and Times of MLK, the 'I Have a Dream'
+                        Civil Rights Leader, in Pictures</a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="img-heading">
+                        <img src="./assets/featured-slide-4.jpg" alt="">
+                        <div class="img-caption">35</div>
+                    </div>
+                    <a class="editor-pick-title">Michelle Obama 55th Birthday: The Former First Lady in Pictures</a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="img-heading">
+                        <img src="./assets/featured-slide-5.jpg" alt="">
+                        <div class="img-caption">16</div>
+                    </div>
+                    <a class="editor-pick-title">Kevin Costner Birthday: Ranking the Best 15 Movies of the 'Bodyguard'
+                        Star</a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="img-heading">
+                        <img src="./assets/featured-slide-6.jpg" alt="">
+                        <div class="img-caption">14</div>
+                    </div>
+                    <a class="editor-pick-title">North Korea Still an ‘Extraordinary Threat’: Pentagon</a>
+                </div>
+            </div>
+        </div>
+        <div class="row featured-by-categories fs-20 centered">
+            <div class="row title">
+                U.S
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="./assets/featured-by-category-1.jpg" alt="">
+                    <a>Alyssa Milano: 'The Red MAGA Hat Is the New White Hood'</a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="./assets/featured-by-category-2.png" alt="">
+                    <a>Alyssa Milano: 'The Red MAGA Hat Is the New White Hood'</a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="row">
+                        <img src="./assets/featured-by-category-3.jpg" alt="">
+                        <a>Alyssa Milano: 'The Red MAGA Hat Is the New White Hood'</a>
+                    </div>
+                    <div class="row">
+                        <img src="./assets/featured-by-category-4.jpg" alt="">
+                        <a>Alyssa Milano: 'The Red MAGA Hat Is the New White Hood'</a>
+                    </div>
+                    <div class="row">
+                        <img src="./assets/featured-by-category-5.jpg" alt="">
+                        <a>Alyssa Milano: 'The Red MAGA Hat Is the New White Hood'</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row title">
+                World
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="./assets/featured-by-category-6.jpg" alt="">
+                    <a>Bar Owner Allegedly Told Staff to Reject Black Patrons</a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="./assets/featured-by-category-7.jpg" alt="">
+                    <a>Aeroflot Passenger Demands Plane Fly To Afghanistan</a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="row">
+                        <img src="./assets/featured-by-category-8.jpg" alt="">
+                        <a>Cruiser, 22, Goes Overboard: No Likelihood of Survival</a>
+                    </div>
+                    <div class="row">
+                        <img src="./assets/featured-by-category-9.jpg" alt="">
+                        <a>Egyptian Journalist Given Jail Term Over Interview</a>
+                    </div>
+                    <div class="row">
+                        <img src="./assets/featured-by-category-10.jpg" alt="">
+                        <a>'Ancient' Stone Circle Actually From the 1990s</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row title">
+                Business
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="./assets/featured-by-category-16.jpg" alt="">
+                    <a>Jared Kushner Growing More Powerful, Frustrating Aides</a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="./assets/featured-by-category-17.jpg" alt="">
+                    <a>Donald Trump's Low Approval Rating Bodes Badly for 2020</a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="row">
+                        <img src="./assets/featured-by-category-18.jpg" alt="">
+                        <a>Jared Kushner Does Firing in the White House: Christie</a>
+                    </div>
+                    <div class="row">
+                        <img src="./assets/featured-by-category-19.jpg" alt="">
+                        <a>Trump Approval Rating Lowest of Any Leader Since WW II</a>
+                    </div>
+                    <div class="row">
+                        <img src="./assets/featured-by-category-20.jpg" alt="">
+                        <a>Donald Trump Told Chris Christie to Lose Weight to Win</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row title">
+                Tech & Science
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="./assets/featured-by-category-21.jpg" alt="">
+                    <a>Greenland's Ice Sheet Reaching 'Tipping Point'</a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="./assets/featured-by-category-22.jpg" alt="">
+                    <a>Planet Nine May Not Exist After All, Study Suggests</a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="row">
+                        <img src="./assets/featured-by-category-23.jpg" alt="">
+                        <a>Prehistoric Shark With ‘Alien Spaceship’ Teeth Found</a>
+                    </div>
+                    <div class="row">
+                        <img src="./assets/featured-by-category-24.jpg" alt="">
+                        <a>
+                            Mexican Drug Cartels Are Hindering Vampire Bat Research</a>
+                    </div>
+                    <div class="row">
+                        <img src="./assets/featured-by-category-25.jpg" alt="">
+                        <a>
+                            Fish Discovered Thriving in Extreme Low-oxygen Habitat</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row title">
+                U.S
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="./assets/featured-by-category-1.jpg" alt="">
+                    <a>Alyssa Milano: 'The Red MAGA Hat Is the New White Hood'</a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="./assets/featured-by-category-2.png" alt="">
+                    <a>Alyssa Milano: 'The Red MAGA Hat Is the New White Hood'</a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="row">
+                        <img src="./assets/featured-by-category-3.jpg" alt="">
+                        <a>Alyssa Milano: 'The Red MAGA Hat Is the New White Hood'</a>
+                    </div>
+                    <div class="row">
+                        <img src="./assets/featured-by-category-4.jpg" alt="">
+                        <a>Alyssa Milano: 'The Red MAGA Hat Is the New White Hood'</a>
+                    </div>
+                    <div class="row">
+                        <img src="./assets/featured-by-category-5.jpg" alt="">
+                        <a>Alyssa Milano: 'The Red MAGA Hat Is the New White Hood'</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row title">
+                World
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="./assets/featured-by-category-6.jpg" alt="">
+                    <a>Bar Owner Allegedly Told Staff to Reject Black Patrons</a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="./assets/featured-by-category-7.jpg" alt="">
+                    <a>Aeroflot Passenger Demands Plane Fly To Afghanistan</a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="row">
+                        <img src="./assets/featured-by-category-8.jpg" alt="">
+                        <a>Cruiser, 22, Goes Overboard: No Likelihood of Survival</a>
+                    </div>
+                    <div class="row">
+                        <img src="./assets/featured-by-category-9.jpg" alt="">
+                        <a>Egyptian Journalist Given Jail Term Over Interview</a>
+                    </div>
+                    <div class="row">
+                        <img src="./assets/featured-by-category-10.jpg" alt="">
+                        <a>'Ancient' Stone Circle Actually From the 1990s</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row title">
+                Business
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="./assets/featured-by-category-16.jpg" alt="">
+                    <a>Jared Kushner Growing More Powerful, Frustrating Aides</a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="./assets/featured-by-category-17.jpg" alt="">
+                    <a>Donald Trump's Low Approval Rating Bodes Badly for 2020</a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="row">
+                        <img src="./assets/featured-by-category-18.jpg" alt="">
+                        <a>Jared Kushner Does Firing in the White House: Christie</a>
+                    </div>
+                    <div class="row">
+                        <img src="./assets/featured-by-category-19.jpg" alt="">
+                        <a>Trump Approval Rating Lowest of Any Leader Since WW II</a>
+                    </div>
+                    <div class="row">
+                        <img src="./assets/featured-by-category-20.jpg" alt="">
+                        <a>Donald Trump Told Chris Christie to Lose Weight to Win</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row container subscription-most-read w-100">
+            <div class="subscription-area col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="row">
+                    <div class="row subscribe-title centered"><a href="#">SUBSCRIBE</a></div>
+                    <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12 digital-only ">
+                        <img src="./assets/digital-only.png" alt="">
+                        <div class="subscription-info">
+                            <a href="#">Digital Only</a> <br>
+                            <i class="fas fa-check"></i> Free access to 40+ digital editions <br>
+                            <i class="fas fa-check"></i> Website access <br>
+                            <i class="fas fa-check"></i> Daily Newsletter <br>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12 print-and-digital">
+                        <img src="./assets/print-and-digital.png" alt="">
+                        <div class="subscription-info">
+                            <a href="#">Print & Digital</a> <br>
+                            <i class="fas fa-check"></i> Free access to 40+ digital editions <br>
+                            <i class="fas fa-check"></i> Website access <br>
+                            <i class="fas fa-check"></i> Daily Newsletter <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="most-read-area col-xs-12 col-sm-12 col-md-4 col-lg-4 pull-right">
+                <div class="row most-read-title"><a href="#">MOST READ</a></div>
+                <div class="row">
+                    <div class="news-mini w-100">
+                        <img src="./assets/more-story-1.jpg" alt="">
+                        <div class="title">
+                            <a href="#">Giuliani Reveals He's Heard Taped Evidence on Trump</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="news-mini w-100">
+                        <img src="./assets/more-story-2.jpg" alt="">
+                        <div class="title">
+                            <a href="#">Trump Drew Up White House Enemies List, Book Claims</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="news-mini w-100">
+                        <img src="./assets/more-story-3.jpg" alt="">
+                        <div class="title">
+                            <a href="#">Joe Biden Scrutinizes His Mistakes At MLK Day Event</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="news-mini w-100">
+                        <img src="./assets/more-story-4.jpg" alt="">
+                        <div class="title">
+                            <a href="#">Sharpton Slams Trump Over 'Secret' MLK Memorial Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container footer w-100">
+        <div class="row footer-logo-social">
+            <div class="footer-logo col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <a class="logo" href="#">NEWSWEEK</a>
+                <span>&nbsp;@2019 NEWSWEEK</span>
+            </div>
+
+            <div class="footer-social-links col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="row footer-links">
+            <div class="menu col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Corrections</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Copyright</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+            <div class="region col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                <label style="float: left; padding-right: 10px; padding-top:5px;"><strong>Editions:</strong></label>
+                <ul>
+                    <li><a href="#">U.S. Edition</a></li>
+                    <li><a href="#">Middle East</a></li>
+                    <li><a href="#">日本</a></li>
+                    <li><a href="#">한국</a></li>
+                    <li><a href="#">Pakistan</a></li>
+                    <li><a href="#">Polska</a></li>
+                    <li><a href="#">România</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
