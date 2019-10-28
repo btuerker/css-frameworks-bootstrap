@@ -4,4 +4,4 @@
 
 by [Burhan](https://github.com/btuerker), [Andrei](https://github.com/andreimorosan29)
 
-[Live Preview](https://btuerker.github.io/css-frameworks-bootstrap/)
+[Live Preview](https://raw.githack.com/btuerker/css-frameworks-bootstrap/master/index.html)
