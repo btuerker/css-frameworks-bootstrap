@@ -282,6 +282,7 @@ hr {
 
 .news-img > .category-tag {
     position: absolute;
+    left: 0;
     background-color: white;
     color: orangered;
     padding: 0 5px;
